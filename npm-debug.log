@@ -1,0 +1,222 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'nodemon' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.0
+4 verbose install initial load of /Users/jeffreytakaki/Projects/simpleapp/package.json
+5 warn package.json simpleapp@1.0.0 No repository field.
+6 warn package.json simpleapp@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from /Users/jeffreytakaki/Projects/simpleapp/node_modules/body-parser/package.json
+8 verbose installManyTop reading scoped package data from /Users/jeffreytakaki/Projects/simpleapp/node_modules/cors/package.json
+9 verbose installManyTop reading scoped package data from /Users/jeffreytakaki/Projects/simpleapp/node_modules/errorhandler/package.json
+10 verbose installManyTop reading scoped package data from /Users/jeffreytakaki/Projects/simpleapp/node_modules/express/package.json
+11 verbose installManyTop reading scoped package data from /Users/jeffreytakaki/Projects/simpleapp/node_modules/express-session/package.json
+12 verbose installManyTop reading scoped package data from /Users/jeffreytakaki/Projects/simpleapp/node_modules/faker/package.json
+13 verbose installManyTop reading scoped package data from /Users/jeffreytakaki/Projects/simpleapp/node_modules/mongoose/package.json
+14 verbose installManyTop reading scoped package data from /Users/jeffreytakaki/Projects/simpleapp/node_modules/mysql/package.json
+15 verbose installManyTop reading scoped package data from /Users/jeffreytakaki/Projects/simpleapp/node_modules/nodemon/package.json
+16 verbose installManyTop reading scoped package data from /Users/jeffreytakaki/Projects/simpleapp/node_modules/path/package.json
+17 info package.json path@0.12.7 path is also the name of a node core module.
+18 verbose readDependencies loading dependencies from /Users/jeffreytakaki/Projects/simpleapp/package.json
+19 verbose install nodemon is installed as 1.18.5
+20 silly cache add args [ 'nodemon', null ]
+21 verbose cache add spec nodemon
+22 silly cache add parsed spec Result {
+22 silly cache add   raw: 'nodemon',
+22 silly cache add   scope: null,
+22 silly cache add   name: 'nodemon',
+22 silly cache add   rawSpec: '',
+22 silly cache add   spec: 'latest',
+22 silly cache add   type: 'tag' }
+23 silly addNamed nodemon@latest
+24 verbose addNamed "latest" is being treated as a dist-tag for nodemon
+25 info addNameTag [ 'nodemon', 'latest' ]
+26 silly mapToRegistry name nodemon
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'nodemon',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   name: 'nodemon',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/nodemon
+31 verbose addNameTag registry:https://registry.npmjs.org/nodemon not in flight; fetching
+32 verbose request uri https://registry.npmjs.org/nodemon
+33 verbose request no auth needed
+34 info attempt registry request try #1 at 9:30:39 PM
+35 verbose request id fac8346595dba86c
+36 verbose etag W/"27a68d9877213a7549f797a240101907"
+37 verbose lastModified Fri, 26 Oct 2018 10:47:51 GMT
+38 http request GET https://registry.npmjs.org/nodemon
+39 http 304 https://registry.npmjs.org/nodemon
+40 verbose headers { date: 'Sat, 03 Nov 2018 04:30:39 GMT',
+40 verbose headers   connection: 'keep-alive',
+40 verbose headers   'set-cookie': [ '__cfduid=d28aadd6d6ecdffc0ab3429d52a787f2a1541219439; expires=Sun, 03-Nov-19 04:30:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+40 verbose headers   'cf-cache-status': 'HIT',
+40 verbose headers   'cache-control': 'max-age=300',
+40 verbose headers   'cf-ray': '473c1b57cba82228-LAX',
+40 verbose headers   etag: '"27a68d9877213a7549f797a240101907"',
+40 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+40 verbose headers   'last-modified': 'Fri, 26 Oct 2018 10:47:51 GMT',
+40 verbose headers   vary: 'accept-encoding, accept',
+40 verbose headers   'x-amz-meta-rev': '1012-3e20ec768f1083143f16fe7459c05b1e',
+40 verbose headers   server: 'cloudflare' }
+41 silly get cb [ 304,
+41 silly get   { date: 'Sat, 03 Nov 2018 04:30:39 GMT',
+41 silly get     connection: 'keep-alive',
+41 silly get     'set-cookie': [ '__cfduid=d28aadd6d6ecdffc0ab3429d52a787f2a1541219439; expires=Sun, 03-Nov-19 04:30:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+41 silly get     'cf-cache-status': 'HIT',
+41 silly get     'cache-control': 'max-age=300',
+41 silly get     'cf-ray': '473c1b57cba82228-LAX',
+41 silly get     etag: '"27a68d9877213a7549f797a240101907"',
+41 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+41 silly get     'last-modified': 'Fri, 26 Oct 2018 10:47:51 GMT',
+41 silly get     vary: 'accept-encoding, accept',
+41 silly get     'x-amz-meta-rev': '1012-3e20ec768f1083143f16fe7459c05b1e',
+41 silly get     server: 'cloudflare' } ]
+42 verbose etag https://registry.npmjs.org/nodemon from cache
+43 verbose get saving nodemon to /Users/jeffreytakaki/.npm/registry.npmjs.org/nodemon/.cache.json
+44 verbose correctMkdir /Users/jeffreytakaki/.npm correctMkdir not in flight; initializing
+45 silly addNameTag next cb for nodemon with tag latest
+46 silly addNamed nodemon@1.18.5
+47 verbose addNamed "1.18.5" is a plain semver version for nodemon
+48 silly cache afterAdd nodemon@1.18.5
+49 verbose afterAdd /Users/jeffreytakaki/.npm/nodemon/1.18.5/package/package.json not in flight; writing
+50 verbose correctMkdir /Users/jeffreytakaki/.npm correctMkdir not in flight; initializing
+51 verbose afterAdd /Users/jeffreytakaki/.npm/nodemon/1.18.5/package/package.json written
+52 silly install resolved [ { name: 'nodemon',
+52 silly install resolved     homepage: 'http://nodemon.io',
+52 silly install resolved     author: { name: 'Remy Sharp', url: 'http://github.com/remy' },
+52 silly install resolved     bin: { nodemon: './bin/nodemon.js' },
+52 silly install resolved     engines: { node: '>=4' },
+52 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/remy/nodemon.git' },
+52 silly install resolved     description: 'Simple monitor script for use during development of a node.js app.',
+52 silly install resolved     keywords:
+52 silly install resolved      [ 'monitor',
+52 silly install resolved        'development',
+52 silly install resolved        'restart',
+52 silly install resolved        'autoload',
+52 silly install resolved        'reload',
+52 silly install resolved        'terminal' ],
+52 silly install resolved     license: 'MIT',
+52 silly install resolved     main: './lib/nodemon',
+52 silly install resolved     scripts:
+52 silly install resolved      { commitmsg: 'commitlint -e',
+52 silly install resolved        coverage: 'istanbul cover _mocha -- --timeout 30000 --ui bdd --reporter list test/**/*.test.js',
+52 silly install resolved        lint: 'jscs lib/**/*.js -v',
+52 silly install resolved        ':spec': 'mocha --timeout 30000 --ui bdd test/**/*.test.js',
+52 silly install resolved        test: 'npm run lint && npm run spec',
+52 silly install resolved        spec: 'for FILE in test/**/*.test.js; do echo $FILE; TEST=1 mocha --exit --timeout 30000 $FILE; if [ $? -ne 0 ]; then exit 1; fi; sleep 1; done',
+52 silly install resolved        postspec: 'npm run clean',
+52 silly install resolved        clean: 'rm -rf test/fixtures/test*.js test/fixtures/test*.md',
+52 silly install resolved        web: 'node web',
+52 silly install resolved        'semantic-release': 'semantic-release pre && npm publish && semantic-release post',
+52 silly install resolved        prepush: 'npm run lint',
+52 silly install resolved        killall: 'ps auxww | grep node | grep -v grep | awk \'{ print $2 }\' | xargs kill -9',
+52 silly install resolved        postinstall: 'node bin/postinstall || exit 0' },
+52 silly install resolved     devDependencies:
+52 silly install resolved      { '@commitlint/cli': '^3.1.3',
+52 silly install resolved        '@commitlint/config-angular': '^3.1.1',
+52 silly install resolved        async: '1.4.2',
+52 silly install resolved        'coffee-script': '~1.7.1',
+52 silly install resolved        husky: '^0.14.3',
+52 silly install resolved        istanbul: '^0.4.5',
+52 silly install resolved        jscs: '^3.0.7',
+52 silly install resolved        mocha: '^2.3.3',
+52 silly install resolved        proxyquire: '^1.8.0',
+52 silly install resolved        'semantic-release': '^8.2.0',
+52 silly install resolved        should: '~4.0.0' },
+52 silly install resolved     dependencies:
+52 silly install resolved      { chokidar: '^2.0.4',
+52 silly install resolved        debug: '^3.1.0',
+52 silly install resolved        'ignore-by-default': '^1.0.1',
+52 silly install resolved        minimatch: '^3.0.4',
+52 silly install resolved        'pstree.remy': '^1.1.0',
+52 silly install resolved        semver: '^5.5.0',
+52 silly install resolved        'supports-color': '^5.2.0',
+52 silly install resolved        touch: '^3.1.0',
+52 silly install resolved        undefsafe: '^2.0.2',
+52 silly install resolved        'update-notifier': '^2.3.0' },
+52 silly install resolved     version: '1.18.5',
+52 silly install resolved     gitHead: '3afa52c56d31f9df93f79c53c9bc1ea4788b421e',
+52 silly install resolved     bugs: { url: 'https://github.com/remy/nodemon/issues' },
+52 silly install resolved     _id: 'nodemon@1.18.5',
+52 silly install resolved     _npmVersion: '5.6.0',
+52 silly install resolved     _nodeVersion: '9.11.2',
+52 silly install resolved     _npmUser: { name: 'remy', email: 'remy@leftlogic.com' },
+52 silly install resolved     dist:
+52 silly install resolved      { integrity: 'sha512-8806dC8dfBlbxQmqNOSEeay/qlbddKvFzxIGNxnPtxUlTtH77xsrC66RnA3M47HCSgMgE5bj+U586o50RowXBg==',
+52 silly install resolved        shasum: '3d3924df23d06806952e8b6d3de052f2a3351807',
+52 silly install resolved        tarball: 'https://registry.npmjs.org/nodemon/-/nodemon-1.18.5.tgz',
+52 silly install resolved        fileCount: 42,
+52 silly install resolved        unpackedSize: 103022,
+52 silly install resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb0vDTCRA9TVsSAnZWagAA5R0P/35GIXz+NA1LNTy9jsLV\n0OtWLqZjLvWF0p/XUcqvV4xgaHxpSbc86GC4G2HPmLZ6zJfmA5Avhz1u1EwL\ng9oKN6kErvbq1wPsbdEp+AQpGpz046XV/gqUej3boxEJ8KjSJHdHqP0eiNLm\nJi3bixnwLoxG65hClmykB6B0CekpkzvbQEGZW9n/3DeTL2Z04xxEH1eTdDu4\nI1lMG52Vx2nZotnpP4pYM1so92JuiCl6QDY3SI24of1Lkj/2AYUI0ozFdldx\ngKRF7Q/XYg+vKW6+zK4ch6K09eJrgutxlx0Tfre51ZFpSfxoG/7FLugRDSu7\n1BoXtzCUuPc0JVPjCxTkrCuAb+jh5aXUnGph8EzpYqy0P1ZwrAPsEtpLJo4T\nSh2SSgOBPI/xo1VtyIm/F7JMxG/z3SI0717gFy8xW9VnZStPOo9glZIJ+ST2\n96VYJ/C4n/8NWMr6tTpLeQTawg+VIUapT/0CTQo9P22mtpCjROMpTXa76xCc\npi6+6yDMoiwLhfDYFwbWYVgz+KAkNAYaDNGatf+BSSWtCIl/59F7wvq+qh6W\nCrwpniyBb0o4PFiN5fM7A20MSr4PUhrXU6ajMeZIFILJ4Xd8QjfBPpTEMldG\ntppPPodWyt4//61lg2vcK+qixysyTOAfNNYTiIumrwSo8+BlfemnmMCk5dav\n8p9u\r\n=Nci7\r\n-----END PGP SIGNATURE-----\r\n' },
+52 silly install resolved     maintainers: [ [Object] ],
+52 silly install resolved     directories: {},
+52 silly install resolved     _npmOperationalInternal:
+52 silly install resolved      { host: 's3://npm-registry-packages',
+52 silly install resolved        tmp: 'tmp/nodemon_1.18.5_1540550866605_0.48612628941608627' },
+52 silly install resolved     _hasShrinkwrap: false,
+52 silly install resolved     _shasum: '3d3924df23d06806952e8b6d3de052f2a3351807',
+52 silly install resolved     _resolved: 'https://registry.npmjs.org/nodemon/-/nodemon-1.18.5.tgz',
+52 silly install resolved     _from: 'nodemon@latest',
+52 silly install resolved     readme: 'ERROR: No README data found!' } ]
+53 info install nodemon@1.18.5 into /Users/jeffreytakaki/Projects/simpleapp
+54 info installOne nodemon@1.18.5
+55 verbose installOne of nodemon to /Users/jeffreytakaki/Projects/simpleapp not in flight; installing
+56 verbose correctMkdir /Users/jeffreytakaki/.npm/_locks correctMkdir not in flight; initializing
+57 verbose lock using /Users/jeffreytakaki/.npm/_locks/nodemon-8020e2689a36c5d5.lock for /Users/jeffreytakaki/Projects/simpleapp/node_modules/nodemon
+58 silly install write writing nodemon 1.18.5 to /Users/jeffreytakaki/Projects/simpleapp/node_modules/nodemon
+59 verbose unbuild node_modules/nodemon
+60 info preuninstall nodemon@1.18.5
+61 info uninstall nodemon@1.18.5
+62 verbose unbuild rmStuff nodemon@1.18.5 from /Users/jeffreytakaki/Projects/simpleapp/node_modules
+63 silly gentlyRm /Users/jeffreytakaki/Projects/simpleapp/node_modules/.bin/nodemon is being gently removed
+64 silly gentlyRm verifying /Users/jeffreytakaki/Projects/simpleapp is an npm working directory
+65 silly gentlyRm containing path /Users/jeffreytakaki/Projects/simpleapp is under npm's control, in /Users/jeffreytakaki/Projects/simpleapp
+66 silly gentlyRm deletion target /Users/jeffreytakaki/Projects/simpleapp/node_modules/.bin/nodemon is under /Users/jeffreytakaki/Projects/simpleapp
+67 verbose gentlyRm vacuuming from /Users/jeffreytakaki/Projects/simpleapp/node_modules/.bin/nodemon up to /Users/jeffreytakaki/Projects/simpleapp
+68 silly vacuum-fs removing /Users/jeffreytakaki/Projects/simpleapp/node_modules/.bin/nodemon
+69 verbose unlock done using /Users/jeffreytakaki/.npm/_locks/nodemon-8020e2689a36c5d5.lock for /Users/jeffreytakaki/Projects/simpleapp/node_modules/nodemon
+70 verbose stack Error: EACCES: permission denied, unlink '/Users/jeffreytakaki/Projects/simpleapp/node_modules/.bin/nodemon'
+70 verbose stack     at Error (native)
+71 verbose cwd /Users/jeffreytakaki/Projects/simpleapp
+72 error Darwin 18.0.0
+73 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "nodemon"
+74 error node v4.6.0
+75 error npm  v2.15.9
+76 error path /Users/jeffreytakaki/Projects/simpleapp/node_modules/.bin/nodemon
+77 error code EACCES
+78 error errno -13
+79 error syscall unlink
+80 error Error: EACCES: permission denied, unlink '/Users/jeffreytakaki/Projects/simpleapp/node_modules/.bin/nodemon'
+80 error     at Error (native)
+80 error  { [Error: EACCES: permission denied, unlink '/Users/jeffreytakaki/Projects/simpleapp/node_modules/.bin/nodemon']
+80 error   errno: -13,
+80 error   code: 'EACCES',
+80 error   syscall: 'unlink',
+80 error   path: '/Users/jeffreytakaki/Projects/simpleapp/node_modules/.bin/nodemon' }
+81 error Please try running this command again as root/Administrator.
+82 verbose exit [ -13, true ]
+83 verbose unbuild node_modules/nodemon
+84 info preuninstall nodemon@1.18.5
+85 info uninstall nodemon@1.18.5
+86 verbose unbuild rmStuff nodemon@1.18.5 from /Users/jeffreytakaki/Projects/simpleapp/node_modules
+87 silly gentlyRm /Users/jeffreytakaki/Projects/simpleapp/node_modules/.bin/nodemon is being gently removed
+88 silly gentlyRm verifying /Users/jeffreytakaki/Projects/simpleapp is an npm working directory
+89 silly gentlyRm containing path /Users/jeffreytakaki/Projects/simpleapp is under npm's control, in /Users/jeffreytakaki/Projects/simpleapp
+90 silly gentlyRm deletion target /Users/jeffreytakaki/Projects/simpleapp/node_modules/.bin/nodemon is under /Users/jeffreytakaki/Projects/simpleapp
+91 verbose gentlyRm vacuuming from /Users/jeffreytakaki/Projects/simpleapp/node_modules/.bin/nodemon up to /Users/jeffreytakaki/Projects/simpleapp
+92 silly vacuum-fs removing /Users/jeffreytakaki/Projects/simpleapp/node_modules/.bin/nodemon
+93 error error rolling back Error: EACCES: permission denied, unlink '/Users/jeffreytakaki/Projects/simpleapp/node_modules/.bin/nodemon'
+93 error error rolling back     at Error (native)
+93 error error rolling back  { [Error: EACCES: permission denied, unlink '/Users/jeffreytakaki/Projects/simpleapp/node_modules/.bin/nodemon']
+93 error error rolling back   errno: -13,
+93 error error rolling back   code: 'EACCES',
+93 error error rolling back   syscall: 'unlink',
+93 error error rolling back   path: '/Users/jeffreytakaki/Projects/simpleapp/node_modules/.bin/nodemon' }
